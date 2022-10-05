@@ -102,7 +102,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Shadows Into Light', cursive;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
@@ -111,7 +111,7 @@ body {
 
 header,
 footer {
-  background-color: #222;
+background: linear-gradient(243deg, rgb(170, 86, 186) 13.4%, rgb(248, 215, 215) 82.1%);
   height: 80px;
   width: 100%;
   display: flex;
@@ -120,9 +120,10 @@ align-items: center;
 }
 
 main {
-  background-color: #ccc;
+background: linear-gradient(243deg, rgb(184, 138, 186) 13.4%, rgb(248, 215, 215) 82.1%);
   height: 250px;
   width: 100%;
+
 }
 
 header,
@@ -140,19 +141,23 @@ main {
     align-items: center;
     flex-flow: row wrap;
     justify-content: space-between;
+    background: linear-gradient(243deg, rgb(170, 86, 186) 13.4%, rgb(248, 215, 215) 82.1%);
 
 }
 
 .flex-items {
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.2em;
+background-color: rgb(11, 5, 5);
+border: 2px solid rgb(106, 4, 137);
+border-radius: 10px;
   width: 30%;
-  height: 200px;
+  height: 330px;
   display: flex;
    justify-content: center;
    align-items: center;
+   text-align: center;
 }
 
 /* ==========================================================================
